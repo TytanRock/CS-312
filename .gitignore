@@ -2,3 +2,6 @@
 Theory Of Computation.pdf
 JFLAP7.1.jar
 jflapPreferences.xml
+*.aux
+*.log
+*.gz

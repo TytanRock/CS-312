@@ -1,0 +1,1 @@
+No, in the case shown below (3.7a), we see that the NFA accepts only a string containing a single '1', but if we exchange the accept and reject states as we see below (3.7b), we see that it accepts only the empty string. This means both NFAs reject strings greater than length 1, or of length 1 that does not contain a '1', thus is not a complement

@@ -1,0 +1,2 @@
+a. For an RE, find a '*' that proceeds a non-empty string. If one exists, the language is infinite through the Pumping Lemma theorem.
+b. For an NFA, traverse the graph using Breadth First/Depth First search. If in the processes of searching, you reach a state that was previously visited, the graph contains a loop and through the Pumping Lemma theorem is infinite.

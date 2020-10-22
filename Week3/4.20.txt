@@ -1,0 +1,6 @@
+The definition of a Finite Automaton is that it contains a finite number of states.
+In order to accept a language that has the same number of 0's and 1's, the Finite Automata must count the number of 0's and compare it to the number of 1's.
+Since the string that passes into the Finite Automata can be arbitrarily large, the Finite Automata must count arbitrarily many 0's and 1's.
+Since arbitrarily many 0's and 1's can be infinite, the Finite Automata must have infinite states.
+A Finite Automata cannot have infinite states, so there doesn't exist a Finite Automata that accepts that language.
+

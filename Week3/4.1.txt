@@ -1,0 +1,2 @@
+To prove that the set of regular languages is closed under reversal, we can assume that there is a Finite Automaton that defines the set of regular languages with a single final state. We can take that Finite Automaton and swap the initial state with the single final state, and change the direction of all the transitions between states. This produces another Finite Automaton that accepts the reversal of the original, and since it is defined by a Finite Automaton we can prove it is still regular, thus the operation of reversal is closed under regular languages.
+

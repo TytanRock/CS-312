@@ -1,0 +1,2 @@
+That expression is nonregular for much the same reason that 0^n1^n is non-regular. Since the Hash symbol must be in the exact middle of the expression, the Finite Automaton must count the number of characters preceeding it and compare it to the number of characters succeeding it. Since the string can be arbitrarily long, and a Finite Automaton contains a finite number of states, it is impossible to create a Finite Automaton that can appropriately compare the number of characters preceeding and compare them to the number of characters succeeding. the has symbol.
+

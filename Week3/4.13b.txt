@@ -1,0 +1,5 @@
+The set of binary nonpalindromes can be interpreted as the complement expression of binary palindromes.
+If Palindromes are regular, we know that nonpalindromes are regular, and if palindromes are not regular we know that nonpalindromes are not regular.
+Palindromes are not regular by the Pumping Lemma.
+Prove palindromes aren't regular by the pumping lemma.
+

@@ -50,6 +50,15 @@ To remove transitions that start at the end state, add another state the becomes
 \subsection{Question}
 If $M$ is a DFA accepting language $B$, then exchanging the accept and reject states gives a new DFA accepting the complement of $B$. Does this work for an NFA? Discuss.
 \subsection{Answer}
+No, below is an NFA that accepts the string "1".
+\begin{center}
+\includegraphics[scale=0.7]{3.7a}
+\end{center}
+And below is an NFA that also accepts the string "1", even though the accept and reject states were swapped.
+\begin{center}
+\includegraphics[scale=0.7]{3.7b}
+\end{center}
+This is because an NFA has the ability to transition through multiple possible states at the same time, so merely swapping the accept and reject states isn't sufficient, as an NFA may be in both an accept and reject state under normal circumstances.
 
 \section{Problem 3.9}
 \subsection{Question}

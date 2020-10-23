@@ -1,0 +1,80 @@
+% Document Class is specified here. We're using the Homework Template
+\documentclass[12pt, a4paper]{article}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{verbatim}
+
+\geometry{a4paper, margin=1in}
+
+\title{Week 3 CS-312 Homework}
+\author{
+	Cory Ness
+	\and
+	Jack Engledow
+	\and
+	James Sgrazzutti
+}
+
+\begin{document}
+
+\maketitle
+
+\section{Problem 3.1}
+\subsection{Question}
+Give an NFA for the language of RE $a^{*}b+b^{*}a$
+\subsection{Answer}
+
+\section{Problem 3.6}
+\subsection{Question}
+Show how to modify an NFA to have a unique accept state with no transition ending at the start state and no transition starting at the accept state.
+\subsection{Answer}
+
+\section{Problem 3.7}
+\subsection{Question}
+If $M$ is a DFA accepting language $B$, then exchanging the accept and reject states gives a new DFA accepting teh complement of $B$. Does this work for an NFA? Discuss.
+\subsection{Answer}
+
+\section{Problem 3.9}
+\subsection{Question}
+For the following NFA, use the subset construction to produce an equivalent DFA.
+\subsection{Answer}
+
+\section{Problem 3.11}
+\subsection{Question}
+Provide an algorithm to tell if the language is infinite if the input is
+\subsubsection{An RE}
+\subsubsection{An NFA}
+
+\section{Problem 4.1}
+\subsection{Question}
+Show that the set of regular languages is closed under reversal. That is, if $L$ is regular, then so is $\{x^{R} : x \in L\}$ where $x^{R}$ denotes the reversaal of string $x$.
+\subsection{Answer}
+
+\section{Problem 4.11}
+\subsection{Question}
+Show taht $\{x\#x : x \in \{0,1\}^{*}\}$ is nonregular. (The hash mark/pound sign is a special symbol that should only occur in the middle of the input string.)
+\subsection{Answer}
+
+\section{Problem 4.13b}
+\subsection{Question}
+State whether the set of binary nonpalindromes is regular or not. If not, give a proof that it is nonregular.
+\subsection{Answer}
+
+\section{Problem 4.14}
+\subsection{Question}
+Explain what is wrong with the following "proof" that the language $L$ of an RE $a^{*}b^{*}$ is nonregular.
+
+\begin{quotation}
+Suppose $L$ were regular. Then it would be accepted by a DFA with, say, $k$ states. Consider the string $z=0^{k}1^{k}$. Split $z=uvw$ with $v=01$. Then $uv^{2}w$ is not in $L$. This is a contradiction of the Pumping Lemma, and so our supposition is false.
+\end{quotation}
+\subsection{Answer}
+
+\section{Problem 4.20}
+\subsection{Question}
+Convince your grandmother that there is no FA that accepts the language of binary strings with an equal number of $0$'s and $1$'s.
+\subsection{Answer}
+
+
+\end{document}

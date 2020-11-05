@@ -1,0 +1,5 @@
+a: "cc"
+b: See picture
+c: Yes, in the case of "ccccc", there are two possible trees that can be derived. One where the first B splits into two SS's, and another where the secon dB splits into two SS's.
+d: Any string with 2mod3 number of "c"s
+e: Yes, because the equivalent regular expression would be cc(ccc)*

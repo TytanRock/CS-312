@@ -1,0 +1,3 @@
+Transform L1 and L2 into context free grammers, S1 and S2.
+Concatenate S1 and S2 like so "S->S1S2"
+Transform the resultant context free grammer back into a PDA.

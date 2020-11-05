@@ -1,0 +1,8 @@
+Any string with an even number of 0's and 1's.
+
+We can look at every string as part of opposite-end pairs.
+If there is a pair "0w1", that is covered by the rule S->0S1
+If there is a pair "1w0", that is covered by the rule S->1S0
+If there is a pair "0w0", that is only eligible if there is also a "1w1" somewhere, translating to "0s1w1s0".
+  This then means that it can be split up using the S->SS rule to create "0w1" "w" "1w0".
+  Likewise for "1w1"

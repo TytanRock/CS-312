@@ -1,0 +1,20 @@
+a: 
+q0, initial state, transitions to itself on '0' and pushes 'X' to the first stack. Also transitions to q1 on nothing.
+q1, transitions to itself on '1' and pops 'X' from the first stack, pushes 'X' to the second stack. Also transitions to q2 on nothing.
+q2, transitions to itself on '2' and pops 'X' from the second stack. Transitions to q3 on nothing, pops Z from both stacks, pushes Z to both stacks.
+q3, final state.
+
+b:
+q0, initial state, transitions to itself on '0' and pushes 'X' to the first stack. Also transitions to q1 on nothing.
+q1, transitions to itself on '1' and pops 'X' from the first stack, pushes 'X' to the second stack. Also transitions to q2 on nothing, popping Z and pushing Z on the first stack.
+q2, transitions to itself on '2' and pops 'X' from the second stack, pushes 'X' to the first stack. Also transitions to q3 on nothing, popping Z and pushing Z on the second stack.
+q3, transitions to itself on '3' and pops 'X' from the first stack. Transitions to q4 on nothing, pops Z from both stacks, pushes Z to both stacks.
+q4, final state.
+
+c:
+q0, initial state, transitions to itself on 0, pushes 0 to the first stack. Transitions to itself on 1, pushes 1 to the first stack. Transitions to q1 on #
+# At this point q1 has the reverse order of everything from the first x
+q1, transitions to itself on nothing, pops 0 from the first stack, pushes 0 to the second stack. Transitions to itself on nothing, pops 1 from the first stack, pushes 1 to the second stack. Transitions to q2 on nothing, pops Z from the first stack, pushes Z to the first stack.
+# At this point the second stack has the order from the first part of the problem in order
+q2, transitions to itself on 0, pops 0 from the second stack. Transitions to itself on 1, pops 1 from the second stack. Transitions to q3 on nothing, pops Z from the second stack, pushes Z to the second stack.
+q3, final state.

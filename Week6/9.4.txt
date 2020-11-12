@@ -1,0 +1,1 @@
+Choose the string z=0^K 1^2k 2^k. Split the string into uvwxy. Because vwx combined has a length of at most k, the string vx cannot contain both 0's and 2's and contains at least some symbols. Therefore, uwy does not have an equal number of 0's 1's and 2's, and is therefore not in the language.

@@ -1,0 +1,9 @@
+Assume there is a special symbol at the start of the one-way tape, and move to the right by one.
+When translating a classical two-way infinite tape turing machine into a one-way infinite tape turing machine, follow these instructions.
+ 1. If transitioning to the right while "positive", instead transition to the right twice
+ 2. If transitioning to the left while "positive", instead transition to the left twice
+ 3. If transitioning to the right while "negative", instead transition to the left twice
+ 4. If transitioning to the left while "negative", instead transition to the right twice
+ 5. If, while transitioning, you encounter the special symbol, follow these steps
+  a. If you are negative (you have transitioned twice), you are now positive, transition to the right by one
+  b. If you are positive (you have transitioned once), you are now negative, transition to the right by two

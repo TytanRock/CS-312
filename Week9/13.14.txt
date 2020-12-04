@@ -1,0 +1,1 @@
+Because nondeterministic TM's always has a deterministic equivalent (12.4), that means that a deterministic TM can be constructed that will halt for every input. Hence, L must be recursive.

@@ -1,0 +1,1 @@
+Since M is a Finite Automata, that means B has to be a regular language. Since regular languages are closed under recursion, that means B has to be recursive.

@@ -1,0 +1,72 @@
+% Document Class is specified here. We're using the Homework Template
+\documentclass[12pt, a4paper]{article}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{verbatim}
+\usepackage{listings}
+
+\lstset{
+  basicstyle=\itshape,
+  xleftmargin=3em,
+  literate={->}{$\rightarrow$}{2}
+           {ε}{$\epsilon$}{1}
+}
+
+\geometry{a4paper, margin=1in}
+
+\title{Week 10 CS-312 Homework}
+\author{
+	Cory Ness
+	\and
+	Jack Engledow
+	\and
+	James Sgrazzutti
+}
+
+\begin{document}
+
+\maketitle
+
+\section{Problem 1}
+\subsection{Question}
+Show that it is undecidable if two TMs accept the same language.
+\subsection{Answer}
+
+\section{Problem 2}
+\subsection{Question}
+Show that $ALL_{DFA} \in \mathcal{P}$. That is, show that you can test in polynomial time whether a DFA accepts every string.
+\subsection{Answer}
+
+\section{Problem 3}
+\subsection{Question}
+Show that the set $\mathcal{P}$ is closed under the star operation. (Hint: Dynamic Programming)
+\subsection{Answer}
+
+\section{Problem 4}
+\subsection{Question A}
+Define SPATH as the set of $<G, a, b, k>$ such that $G$ is a graph with a path from $a$ to $b$ of length at most $k$. Show that SPATH is in $\mathcal{P}$.
+\subsection{Question B}
+Define LPATH as the set of $<G,a,b,k>$ such that $G$ is a graph with a path from $a$ to $b$ without repeated nodes of length at least $k$. Show that LPATH is $\mathcal{NP}$-Complete. (You may assume NP-completeness of 
+HAMPATH).
+\subsection{Answer A}
+\subsection{Answer B}
+
+\section{Problem 5}
+\subsection{Question}
+Show that if $\mathcal{P=NP}$, then every language in $\mathcal{P}$ except $\emptyset$ and $\Sigma^{*}$ is $\mathcal{NP}$-complete.
+\subsection{Answer}
+
+\section{Problem 6}
+\subsection{Question}
+Show that the CLIQUE problem is $\mathcal{NP}$-complete by reducing from VERTEX\_COVER.
+\subsection{Answer}
+
+\section{Problem 7}
+\subsection{Question}
+Convince your instructor that you understood this course.
+\subsection{Answer}
+
+
+\end{document}
